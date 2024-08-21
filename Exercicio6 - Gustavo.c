@@ -12,8 +12,7 @@ int main(){
 	impostos = custo * 0.45;
 	valorfinal = distribuidor + impostos + custo;
 	
-	printf("o valor final do carro sera: %.2f.\n", valorfinal);
 	printf("valor dos impostos: %.2f.\n", impostos);
 	printf("o valor do distribuidor: %.2f.\n", distribuidor);
-	
+	printf("o valor final do carro sera: %.2f.\n", valorfinal);
 }
